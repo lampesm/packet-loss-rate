@@ -53,3 +53,11 @@ You can use the following commands to view more options from tshark
 ### **poetry**
 
 `pip install poetry`
+
+# use
+
+`poetry shell`
+
+`poetry install`
+
+`python main.py`
