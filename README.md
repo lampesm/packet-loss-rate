@@ -10,6 +10,8 @@ In this project, you will learn how to monitor packets passing through your netw
 
 # Installation
 
+### **tshark**
+
 Add the Wireshark and TShark repository:
 
 `sudo add-apt-repository -y ppa:wireshark-dev/stable`
@@ -47,3 +49,7 @@ You can use the following commands to view more options from tshark
 `tshark --help`
 
 `man tshark`
+
+### **poetry**
+
+`pip install poetry`
