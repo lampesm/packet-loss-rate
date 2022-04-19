@@ -38,6 +38,10 @@ The -i option allows to capture packets on specific network interface.
 
 `tshark -i ens33`
 
+If you encounter a **PermissionError: [Errno 13] Permission denied: '/usr/bin/dumpcap'** error, use the following command
+
+`sudo chmod +x /usr/bin/dumpcap`
+
 You can use the following commands to view more options from tshark
 
 `tshark --help`
