@@ -7,6 +7,7 @@ authors = ["esmail211 <smaeil0018@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pyshark = "^0.4.5"
+python-decouple = "^3.6"
 
 [tool.poetry.dev-dependencies]
 

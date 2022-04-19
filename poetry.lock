@@ -32,10 +32,18 @@ python-versions = "*"
 lxml = "*"
 py = "*"
 
+[[package]]
+name = "python-decouple"
+version = "3.6"
+description = "Strict separation of settings from code."
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "170a3808a411068c849d777227af60876789aed87ab9685365fe12da4b9c1ad6"
+content-hash = "40535bd9504e27147da54844996f9074358710e0e23924d78dc65a8e73d7ccea"
 
 [metadata.files]
 lxml = [
@@ -108,4 +116,8 @@ py = [
 pyshark = [
     {file = "pyshark-0.4.5-py3-none-any.whl", hash = "sha256:162700a5d0b8a0faa6495e699e89b168042957bec93249d49f4acbc18b242441"},
     {file = "pyshark-0.4.5.tar.gz", hash = "sha256:3989cf44cc414b296da8c5f15bb406e17951bcfe8510ac8850f7133068cf3969"},
+]
+python-decouple = [
+    {file = "python-decouple-3.6.tar.gz", hash = "sha256:2838cdf77a5cf127d7e8b339ce14c25bceb3af3e674e039d4901ba16359968c7"},
+    {file = "python_decouple-3.6-py3-none-any.whl", hash = "sha256:6cf502dc963a5c642ea5ead069847df3d916a6420cad5599185de6bab11d8c2e"},
 ]
