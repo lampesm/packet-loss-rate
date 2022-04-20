@@ -56,6 +56,8 @@ You can use the following commands to view more options from tshark
 
 # use
 
+`cp .env.example .env` and replace your environment in .env file
+
 `poetry shell`
 
 `poetry install`
