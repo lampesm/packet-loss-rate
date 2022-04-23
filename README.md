@@ -10,7 +10,7 @@ In this project, you will learn how to monitor packets passing through your netw
 
 ## Installation
 
-### **tshark**
+**tshark**
 
 Add the Wireshark and TShark repository:
 
@@ -50,7 +50,7 @@ You can use the following commands to view more options from tshark
 
 `man tshark`
 
-### **poetry**
+**poetry**
 
 `pip install poetry`
 
