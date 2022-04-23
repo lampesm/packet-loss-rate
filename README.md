@@ -2,7 +2,7 @@
 
 In this project, you will learn how to monitor packets passing through your network interface and calculate the percentage of errors.
 
-## requirements
+## Requirements
 
 - tshark
 - poetry
@@ -54,7 +54,7 @@ You can use the following commands to view more options from tshark
 
 `pip install poetry`
 
-## use
+## Use
 
 `cp .env.example .env` and replace your environment in .env file
 
