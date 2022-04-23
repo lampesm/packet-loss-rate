@@ -1,14 +1,14 @@
-# packet-loss-rate
+# Packet Loss Rate
 
 In this project, you will learn how to monitor packets passing through your network interface and calculate the percentage of errors.
 
-# requirements
+## requirements
 
 - tshark
 - poetry
 - python3.6+
 
-# Installation
+## Installation
 
 ### **tshark**
 
@@ -54,7 +54,7 @@ You can use the following commands to view more options from tshark
 
 `pip install poetry`
 
-# use
+## use
 
 `cp .env.example .env` and replace your environment in .env file
 
@@ -63,3 +63,9 @@ You can use the following commands to view more options from tshark
 `poetry install`
 
 `python main.py`
+
+<br>
+
+## License
+
+[GNU](https://github.com/lampesm/packet-loss-rate/blob/main/LICENSE)
